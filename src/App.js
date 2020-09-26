@@ -31,7 +31,7 @@ class App extends React.Component {
       word10: 'Word 10',
       def10: 'Definition 10',
     };
-    
+
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -222,6 +222,21 @@ class App extends React.Component {
                         <p>{this.state.def10}</p>
             <button onClick={this.handleClick}>Click to flip</button>
 
+          </div>
+        </div>
+      </ReactCardFlip>
+      <ReactCardFlip isFlipped="false" flipDirection="vertical">
+        <div class="card">
+          <div class="container">
+            <h1>Passage</h1>
+            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="container">
+            <h1>Passage</h1>
+            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
           </div>
         </div>
       </ReactCardFlip>
